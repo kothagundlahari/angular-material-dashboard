@@ -22,10 +22,8 @@ import {RootComponent} from './dashboard/root/root.component';
 import {HeaderComponent} from './shared/header/header.component';
 import {FooterComponent} from './shared/footer/footer.component';
 import {SettingsComponent} from './dashboard/settings/settings.component';
-import {PriceTableComponent} from './dashboard/component/pricetable/pricetable.component';
-import {PanelsComponent} from './dashboard/component/panels/panels.component';
 import {SettingsService} from './services/settings.service';
-import {WizardComponent} from './dashboard/component/wizard/wizard.component';
+
 
 @NgModule({
   declarations: [
@@ -44,10 +42,7 @@ import {WizardComponent} from './dashboard/component/wizard/wizard.component';
     RootComponent,
     HeaderComponent,
     FooterComponent,
-    SettingsComponent,
-    PriceTableComponent,
-    PanelsComponent,
-    WizardComponent
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
