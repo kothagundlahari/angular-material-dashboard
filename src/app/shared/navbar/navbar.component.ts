@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,12 +7,13 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   @Input() title: string;
-  constructor() {}
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
   menuClick() {
-   // document.getElementById('main-panel').style.marginRight = '260px';
   }
 }
