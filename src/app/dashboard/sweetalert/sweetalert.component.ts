@@ -119,7 +119,7 @@ export class SweetAlertComponent implements OnInit {
         swal({
           title: 'Input something',
           input: 'text',
-          inputClass: 'mat-input-container',
+          inputClass: 'mat-form-field',
           showCancelButton: true,
           confirmButtonText: 'OK',
           confirmButtonClass: 'btn btn-success',
